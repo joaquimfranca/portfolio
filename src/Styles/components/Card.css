@@ -1,5 +1,6 @@
 .project-card{
     width: 400px;
+    max-width: 100%;
     color: white;
     max-width:600px ; 
     background-color:#2379c9;
@@ -45,5 +46,6 @@
   @media (max-width: 1200px) {
     .project-card {
       margin: 0 auto;
+      width: 90%;
     }
   }

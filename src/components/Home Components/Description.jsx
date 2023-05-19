@@ -7,7 +7,7 @@ return(
         <div className="Description_content">
           <span>
             
-            <h1 className="title">Frontend Developer</h1>
+            <h1 className="title-description">Frontend Developer</h1>
             <p>
               Quando se trata de desenvolver aplicativos em JavaScript, tenho as
               ferramentas certas, incluindo meu framework principal: React. <br/> <br/>
@@ -21,7 +21,7 @@ return(
           </span>
           <span>
             {" "}
-            <h1 className="title">Design</h1>
+            <h1 className="title-description">Design</h1>
             <p>
               Trabalho com design desde 2017 e desenvolvi um
               forte interesse em desenvolvimento web. Então decidi combinar minhas habilidades em

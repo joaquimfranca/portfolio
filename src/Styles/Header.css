@@ -14,7 +14,7 @@
 .logo {
   display: flex;
   margin: auto 0;
-  margin-right: auto; /* margem a direita para colocar a esquerda */
+  margin-right: auto; 
 }
 
 
@@ -28,7 +28,8 @@
   .logo img {
 
     width: 280px;
-    height: auto
+    height: auto;
+    margin-left: 20px;
   }
 
 }

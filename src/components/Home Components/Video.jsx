@@ -1,4 +1,4 @@
-import video from "../../videos/iphone.mp4"
+import video from "../../videos/iphone_AdobeExpress.webp"
 import "../../Styles/components/Video.css"
 export default function Video() {
  return (
@@ -13,12 +13,11 @@ export default function Video() {
       Apps usando React e Typescript
     </p>
     </div>
-    <video
+    <img
       className="video"
       src={video}
-      autoPlay={true}
       loop={true}
-    ></video>
+    ></img>
 
     </section>
         )}

@@ -17,7 +17,14 @@ h1{
 }
 
   body{
-    background-color: #298ae5;
+    background-color: #1683D9;
 
   }
+  @media (max-width: 1200px) {
+    section{
+      width: 90%;
+    }
+  }
+
+
 
