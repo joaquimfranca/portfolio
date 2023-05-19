@@ -1,0 +1,40 @@
+.header {
+
+  position: fixed;
+  background-color: #298ae5;
+  height: 100px;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo {
+  display: flex;
+  margin: auto 0;
+  margin-right: auto; /* margem a direita para colocar a esquerda */
+}
+
+
+.logo img {
+
+  width: 400px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+
+    width: 280px;
+    height: auto
+  }
+
+}
+
+
+
+
+
+

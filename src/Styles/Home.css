@@ -1,0 +1,87 @@
+section {
+  margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+  }
+
+  
+  .cavalier_content{
+    width: 20%;
+    margin-left: 15%;
+  }
+.cavalier_content2 {
+    background-color: black;
+    background-color: #067BCF;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    justify-content: center;
+    padding-bottom: 40px;
+  } 
+  
+  .imagem {
+    width: 45%;
+    margin-right: 10%;
+  }
+  
+  .imagem img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+.title{
+  margin-top: 50px;
+    padding: 10px 0px 30px 0px;
+    width: 400px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 65px;
+}
+.cavalier_content p, .cavalier_content2 p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  color: #ffffff; 
+  font-size: 25px;
+  width: 400px;
+  text-align: justify;
+}
+
+
+
+@media (max-width: 1200px) {
+    section {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .cavalier_content {
+      width: 90%;
+      margin-left: 2%;
+      margin-bottom: 20px;
+    }
+  
+    .cavalier_content2 {
+      width: 90%;
+      
+      gap: 50px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+  
+    .imagem {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  }
+  

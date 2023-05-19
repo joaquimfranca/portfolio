@@ -1,0 +1,32 @@
+.Description_content {
+  background-color: #067bcf;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  justify-content: center;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.Description_content p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+  font-size: 25px;
+  width: 400px;
+  text-align: justify;
+}
+
+@media (max-width: 1200px) {
+
+  .Description_content {
+    width: 90%;
+    gap: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

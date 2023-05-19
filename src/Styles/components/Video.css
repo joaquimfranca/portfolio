@@ -1,0 +1,23 @@
+
+
+.video-title {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-title h1 {
+  font-size: 100px;
+  text-align: center;
+  color: #00D2D2
+}
+.video-title p {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.video {
+  margin-right: 20%;
+  width: 500px;
+  max-width: 100%;
+}

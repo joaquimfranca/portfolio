@@ -1,0 +1,54 @@
+.main-resume-contato {
+  background-color: #2379c9;
+  width: 40%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 700px;
+}
+.icon{
+    width: 70px;
+    text-align: center;
+}
+.title-contato{
+    text-align: center;
+    color: white;
+}
+.title-contato h1{
+   
+    color: white;
+}
+.icons h6{
+   
+    font-size: 10px;
+}
+
+.icons a {
+  font-size: 50px;
+  color: #00d2d1;
+  align-items: center;
+  width: min-content;
+  padding: 20px;
+  height: min-content;
+}
+.icons a :hover {
+  font-size: 51px;
+  color: #06f1f1;
+}
+
+.icons {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .main-resume-contato {
+    width: 90%;
+  }
+  .icons {
+    width:100%;
+  
+  }
+
+}

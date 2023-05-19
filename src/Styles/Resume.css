@@ -1,0 +1,207 @@
+
+.main-resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: #067bcf;
+  border-radius: 10px;
+}
+.img-topic img {
+  margin: 0 auto;
+  width: 100%;
+}
+.img-topic {
+  margin: auto 0;
+  max-width: 100%;
+}
+.container-topic {
+  display: flex;
+  width: 100%;
+}
+.div-perfil {
+  width: 250px;
+  max-width: 100%;
+  height:min-content;
+}
+.div-perfil img {
+  width: 250px;
+  max-width: 100%;
+}
+
+.icons-resume a{
+  margin-left: -20px;
+  font-size: 50px;
+  color: #00D2D1;
+  align-items: center;
+  width: min-content;
+  padding: 20px;   
+}
+
+.icons-resume a:hover{
+
+  color:rgb(22, 232, 232);
+}
+.intro {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+.intro-text {
+  display: inline;
+  width: 60%;
+}
+.div-perfil {
+  width: 40%;
+  max-width: 100%;
+}
+
+.linkedin img {
+  width: 100px;
+  filter: invert();
+  margin-left: 10%;
+}
+.linkedin img:hover {
+  filter: invert(90%);
+}
+.instagram img {
+  width: 30px;
+  filter: invert();
+  margin-left: 20px;
+}
+.instagram img:hover {
+  filter: invert(90%);
+}
+
+.skills {
+  font-weight: 100;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white;}
+
+
+
+.sumary {
+  margin-top: 5%;
+  margin:0 auto;
+  width: 90%;
+}
+
+.sumary h2,
+p {
+  color: white;
+  margin-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.sumary span {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  width: 100%;
+  font-size: 1.2rem;
+  
+ 
+}
+
+.brief {
+  background-color: #067bcf;
+  text-align: justify;
+  width: 90%;
+  display: block;
+  margin-top: 0px;
+}
+.experience {
+  width: 100%;
+}
+
+.brief h1,
+.experience h1,
+.education h1,
+.intro-text h1 {
+  background-color: #067bcf;
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.back-topic {
+  text-align: justify;
+  border-radius: 10px;
+  background-color: #066bb2;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.experience h2,
+.education h2 {
+  color: #00D2D1;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.experience h3 {
+  color: rgb(247, 247, 247);
+  margin-bottom: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  margin-left: 0;
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.head-topic{
+  width: 70%;
+  font-size: 13px;
+}
+.icons-resume a{
+
+  font-size: 20px;
+  
+}
+  .main-resume {
+    flex-direction: column;
+    border: none;
+    padding: 10px;
+    border-radius: 0;
+  }
+
+
+  .sumary {
+    width: 80%;
+  }
+  .title-sumary {
+    font-size: 2rem;
+  }
+  .brief p {
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .div-perfil img {
+    margin-left: 10px;
+  }
+  .main-resume {
+    width: 100%;
+  }
+ 
+  .container-topic {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .sumary h2,
+  p {
+    font-size: 1rem;
+  }
+  .sumary span {
+    font-size: 1rem;
+  }
+}
