@@ -1,6 +1,6 @@
 
 import "../../src/Styles/components/Card.css";
-import { SiAdobephotoshop } from 'react-icons/Si';
+
 import { Link } from "react-router-dom";
 
 export const ProjectCard2 = ({
@@ -18,7 +18,7 @@ export const ProjectCard2 = ({
       <h3>{description}</h3>
       <h4>{}</h4>
       <div className="buttons">
-      <button className="Card-btn"><SiAdobephotoshop/><Link to={url}>{" "}Projeto</Link> </button>
+      <button className="Card-btn"><Link to={url}>{" "}Projeto</Link> </button>
      
       </div>
     </div>
