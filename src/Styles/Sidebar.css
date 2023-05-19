@@ -22,9 +22,7 @@
   font-size: 60px;
 }
 .buttonsidebar:hover{
-
   color: #12f3f3;
-
 }
 
 .sidebar-content {
@@ -68,8 +66,7 @@
 }
 @media (max-width: 768px) {
   .sidebar {
-    right:0px;
- 
+    right:20px;
   }
 
 }

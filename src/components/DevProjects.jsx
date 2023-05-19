@@ -16,7 +16,7 @@
       <section id="projects-grid">
      
         <div className="projects-container">
-          <br/><br/>
+          <br/><br/><br/><br/>
         <h1 id="title">Projetos <b>Frontend</b></h1>
         <div className="grid">
           <ProjectCard 
