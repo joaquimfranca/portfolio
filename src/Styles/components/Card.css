@@ -46,6 +46,6 @@
   @media (max-width: 1200px) {
     .project-card {
       margin: 0 auto;
-      width: 90%;
+      width: 100%;
     }
   }

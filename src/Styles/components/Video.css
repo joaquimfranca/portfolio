@@ -25,9 +25,11 @@
 }
 @media (max-width: 1240px) {
   .video {
-
     margin-right:0%;
-
+  }
+  .video-title {
+    width: 90%;
+    
   }
 
 }
