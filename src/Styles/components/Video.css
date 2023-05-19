@@ -27,8 +27,8 @@
   .video {
     margin-right:0%;
   }
-  .video-title {
-    width: 90%;
+  .video-title h1{
+    font-size: 80px;
     
   }
 
