@@ -59,8 +59,20 @@ export default function Resume() {
             <div className="skills">
               <h1>Skills</h1>
               <p>
-                React, Javascript, Typescript <br />
-                HTML5, CSS3, Git, SCSS
+              -JavaScript
+      -TypeScript
+      -HTML 5
+      -CSS3
+      -UI/UX
+      -Figma
+      -Bootstrap
+<br />
+      -Interfaces responsivas
+      -API Rest
+      -Swagger
+      -Insomnia
+      -Inglês avançado/fluente.
+               
               </p>
             </div>
             <div className="experience">
