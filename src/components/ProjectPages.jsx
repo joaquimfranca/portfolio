@@ -18,7 +18,7 @@ export const ProjectPages = ({
         
         <div className="brand">
          
-          <h2>Objetivo:</h2>
+          <h3>Objetivo:</h3>
           <p>
           {description}
           </p>
