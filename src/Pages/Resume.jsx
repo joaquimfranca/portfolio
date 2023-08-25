@@ -127,6 +127,28 @@ export default function Resume() {
               </div>
             </div>
 
+                      <div className="back-topic">
+                <div className="container-topic">
+                  <div className="head-topic">
+                    <h2>Desenvolvimento e-Comercial | Pet Shop Amarelo</h2>
+                    <h3>
+                      <b>Desenvolvedor Front-end.</b> Julho 2019 - Janeiro 2023
+                    </h3>
+                  </div>
+                  <div className="img-topic">
+                    <img src={pet}></img>
+                  </div>
+                </div>
+                <span>
+                  Como Engenheiro Frontend Pleno no Pet Shop Amarelo, fui
+                  responsável por criar, implementar e documentar novas soluções
+                  com base nos requisitos dos clientes para desenvolver, criar
+                  novos recursos ou solucionar bugs no sistema de controle da
+                  empresa.
+                </span>
+              </div>
+            </div>
+
             <div className="education">
               <h1>Educação</h1>
               <div className="back-topic">
