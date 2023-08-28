@@ -29,9 +29,7 @@ return(
               na construção de marcas e identidades visuais.  <br/> <br/>
               Já incorporando design gráfico com desenvolvimento web, sou capaz de criar
               sites ou app's que são visualmente atraentes e altamente funcionais,
-              capturando totalmente a essência das marcas dos meus clientes. Eu estou sempre
-              aprendendo e expandindo meus conhecimentos neste campo para fornecer o
-              melhores soluções possíveis para meus clientes.{" "}
+              capturando totalmente a essência das marcas dos meus clientes. 
 
 
             </p>
